@@ -1,0 +1,22 @@
+[
+  {
+    "originalPath": "AGENTS.md",
+    "archivedPath": "learning/history/agents-before-preparation.md",
+    "sha256": "946b5fdb9f8089cb7891ae836db521403b1e5512d200bcc01c2d3787afb8f2b0"
+  },
+  {
+    "originalPath": "CLAUDE.md",
+    "archivedPath": "learning/history/claude-before-preparation.md",
+    "sha256": "2ebfeff584d5265789cbc375a839d73ec12eb5cc258340df7d39c65a7bfc1562"
+  },
+  {
+    "originalPath": "LEARNING_DIRECTION.md",
+    "archivedPath": "learning/history/learning-direction-before-preparation.md",
+    "sha256": "525594638d5353e8376bb7ff428efae87d2ca6f9516a7626c015aa1497aa73ed"
+  },
+  {
+    "originalPath": "library/docs/SPEC.md",
+    "archivedPath": "learning/history/library-spec-before-preparation.md",
+    "sha256": "88527e14ee27cd91a669ffb1909a95c7ff02764b36c0c03ae1e0cc84952789b3"
+  }
+]

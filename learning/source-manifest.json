@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-09-07",
+  "timezone": "Asia/Seoul",
+  "purpose": "Source evidence for study diagnostics, not a full audit or learner competency assessment",
+  "runtimeVerification": {
+    "buildRun": false,
+    "testsRun": false,
+    "serverStarted": false,
+    "note": "Prior library HTTP outcomes are user reports/screenshots in conversation, not current execution."
+  },
+  "repositories": [
+    {
+      "name": "product",
+      "repositoryUrl": "https://github.com/030831/product",
+      "branch": "main",
+      "sha": "de81e952c7a3ff878ff7c7f67e0c7917a82c1958",
+      "commitUtc": "2026-09-02T07:32:32Z",
+      "completePathInventory": true,
+      "treeTruncated": false,
+      "files": [
+        {
+          "path": "backend/src/main/java/com/example/product/service/CheckoutService.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/backend/src/main/java/com/example/product/service/CheckoutService.java"
+        },
+        {
+          "path": "backend/src/main/java/com/example/product/service/OrderService.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/backend/src/main/java/com/example/product/service/OrderService.java"
+        },
+        {
+          "path": "backend/src/main/java/com/example/product/domain/Order.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/backend/src/main/java/com/example/product/domain/Order.java"
+        },
+        {
+          "path": "backend/src/main/java/com/example/product/domain/OrderItem.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/backend/src/main/java/com/example/product/domain/OrderItem.java"
+        },
+        {
+          "path": "backend/src/main/java/com/example/product/repository/ProductRepositoryImpl.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/backend/src/main/java/com/example/product/repository/ProductRepositoryImpl.java"
+        },
+        {
+          "path": "backend/src/main/java/com/example/product/service/PaymentService.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/backend/src/main/java/com/example/product/service/PaymentService.java"
+        },
+        {
+          "path": "backend/src/test/java/com/example/product/service/CheckoutServiceTest.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/backend/src/test/java/com/example/product/service/CheckoutServiceTest.java"
+        },
+        {
+          "path": "backend/src/main/java/com/example/product/controller/product/ProductController.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/backend/src/main/java/com/example/product/controller/product/ProductController.java"
+        },
+        {
+          "path": "backend/src/main/java/com/example/product/service/ProductService.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/backend/src/main/java/com/example/product/service/ProductService.java"
+        },
+        {
+          "path": "frontend/src/features/auth/authenticatedFetch.ts",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/frontend/src/features/auth/authenticatedFetch.ts"
+        },
+        {
+          "path": "backend/src/test/java/com/example/product/service/OrderServiceTest.java",
+          "scope": "lines 1-90 of 107 only",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/backend/src/test/java/com/example/product/service/OrderServiceTest.java"
+        },
+        {
+          "path": "docs/ROADMAP.md",
+          "scope": "lines 1-125 of 554; historical instruction data, not applied as current requirements",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/docs/ROADMAP.md"
+        },
+        {
+          "path": "docs/DOMAIN_ERD.md",
+          "scope": "partial excerpt; output truncation, not used as proof of current code",
+          "url": "https://github.com/030831/product/blob/de81e952c7a3ff878ff7c7f67e0c7917a82c1958/docs/DOMAIN_ERD.md"
+        }
+      ],
+      "observations": [
+        "Checkout groups cart items by seller, creates orders/payment and clears cart.",
+        "OrderItem stores product name/price at order time.",
+        "Selected-item cancellation coordinates stock/order/delivery/payment state.",
+        "Search has separate content and count predicates.",
+        "Tests read include happy path and selected-item cancellation; no tests were executed."
+      ]
+    },
+    {
+      "name": "spring-commerce-api",
+      "repositoryUrl": "https://github.com/030831/spring-commerce-api",
+      "branch": "main",
+      "sha": "598c06a19815d59f899b4812361a2aef8b70df90",
+      "commitUtc": "2026-06-22T11:30:54Z",
+      "completePathInventory": true,
+      "treeTruncated": false,
+      "files": [
+        {
+          "path": "src/main/java/com/backend/shoppingmall/service/OrderService.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/spring-commerce-api/blob/598c06a19815d59f899b4812361a2aef8b70df90/src/main/java/com/backend/shoppingmall/service/OrderService.java"
+        },
+        {
+          "path": "src/main/java/com/backend/shoppingmall/entity/Order.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/spring-commerce-api/blob/598c06a19815d59f899b4812361a2aef8b70df90/src/main/java/com/backend/shoppingmall/entity/Order.java"
+        },
+        {
+          "path": "src/main/java/com/backend/shoppingmall/entity/OrderItem.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/spring-commerce-api/blob/598c06a19815d59f899b4812361a2aef8b70df90/src/main/java/com/backend/shoppingmall/entity/OrderItem.java"
+        },
+        {
+          "path": "README.md",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/spring-commerce-api/blob/598c06a19815d59f899b4812361a2aef8b70df90/README.md"
+        },
+        {
+          "path": "src/main/java/com/backend/shoppingmall/repository/ProductRepository.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/spring-commerce-api/blob/598c06a19815d59f899b4812361a2aef8b70df90/src/main/java/com/backend/shoppingmall/repository/ProductRepository.java"
+        },
+        {
+          "path": "src/main/java/com/backend/shoppingmall/service/ProductService.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/spring-commerce-api/blob/598c06a19815d59f899b4812361a2aef8b70df90/src/main/java/com/backend/shoppingmall/service/ProductService.java"
+        },
+        {
+          "path": "src/test/java/com/backend/shoppingmall/service/OrderServiceTest.java",
+          "scope": "full file source read",
+          "url": "https://github.com/030831/spring-commerce-api/blob/598c06a19815d59f899b4812361a2aef8b70df90/src/test/java/com/backend/shoppingmall/service/OrderServiceTest.java"
+        }
+      ],
+      "observations": [
+        "ProductRepository directly uses EntityManager.",
+        "Order and OrderItem link member/order/product; addOrderItem sets both sides.",
+        "README says member/order absent while source exists in same commit.",
+        "Order cancellation test flushes, clears and reloads state; not executed."
+      ]
+    },
+    {
+      "name": "library",
+      "workspacePath": "C:/Users/kdhc6/Desktop/Intellij/practice/study/library",
+      "gitSha": null,
+      "gitStatus": "git rev-parse reported not a git repository",
+      "mainJavaFileCount": 13,
+      "testJavaFileCount": 1,
+      "completePathInventory": true,
+      "files": [
+        {
+          "path": "src/main/java/com/hyunjun/library/entity/Book.java",
+          "scope": "full file source read",
+          "sha256": "388df97bd333294e86370bb89e421f1e8cceaa4d51ec99fe93891a5fd0522f68"
+        },
+        {
+          "path": "src/main/java/com/hyunjun/library/entity/Member.java",
+          "scope": "full file source read",
+          "sha256": "1da6338801ce222da8bed1112b8ece98050e24d9eee541a7fe265418a2573d8d"
+        },
+        {
+          "path": "src/main/java/com/hyunjun/library/entity/Loan.java",
+          "scope": "full file source read",
+          "sha256": "9f1730536dcb738cbe9bb3ba3daaa312f00e5d481adef757aabff2399d918e94"
+        },
+        {
+          "path": "src/main/java/com/hyunjun/library/entity/LoanItem.java",
+          "scope": "full file source read",
+          "sha256": "8f79351ef7eba67773ec824599fc6c060dd4d9d89d1d79873a532821331ee808"
+        },
+        {
+          "path": "src/main/java/com/hyunjun/library/service/BookService.java",
+          "scope": "full file source read",
+          "sha256": "3a3f01fe3b9b57cf9c9fe2888bd564dd25386581df17ee94d1a7dccfd348a599"
+        },
+        {
+          "path": "src/main/java/com/hyunjun/library/controller/BookController.java",
+          "scope": "full file source read",
+          "sha256": "42a095c293fbea5eb45937f9069957a139352c9395c47b4167e22c4e25ded449"
+        },
+        {
+          "path": "src/main/java/com/hyunjun/library/repository/BookRepository.java",
+          "scope": "full file source read",
+          "sha256": "382c4312ce8881d2e16918abf16d0796df4c698a00f8beb84a43488884d7a172"
+        },
+        {
+          "path": "src/main/java/com/hyunjun/library/dto/CreateRequestBook.java",
+          "scope": "full file source read",
+          "sha256": "7c16917c5bb93019b7b1263e91047ba497fb175fb3934275bec089b8b50c8d1e"
+        },
+        {
+          "path": "src/main/java/com/hyunjun/library/dto/ResponseBook.java",
+          "scope": "full file source read",
+          "sha256": "2eb26814b8170a615284abd1494dbb71178e1c021247b76b5cb4f607600d406a"
+        },
+        {
+          "path": "src/main/java/com/hyunjun/library/exception/GlobalExceptionHandler.java",
+          "scope": "full file source read",
+          "sha256": "c6be6ceb2f0c37e4e4e9f9e21bc173c84ffc93aa562645e083a0399e343e07f7"
+        },
+        {
+          "path": "src/test/java/com/hyunjun/library/LibraryApplicationTests.java",
+          "scope": "full file source read",
+          "sha256": "b925e0ab0a479dac65b04f419e87d4f5b82a8ed22453511b110d43c10e796b53"
+        },
+        {
+          "path": "build.gradle",
+          "scope": "full file source read",
+          "sha256": "4d1892b756afbd234f33c2bd7a1638b027adf5448357f110bf55d7d4c98c1ffd"
+        },
+        {
+          "path": "src/main/resources/application.properties",
+          "scope": "full file source read",
+          "sha256": "907f882296979b7d023e999865e77ba1926720b40fb78a9135069c8ed4472649"
+        }
+      ],
+      "observations": [
+        "Book API create/find one/find all present.",
+        "Four entities contain the updated mappings, initialized lists and LocalDate fields.",
+        "Loan(Member, LocalDate) constructor not yet present.",
+        "No loan repository/service/controller or loan/return methods in observed source inventory.",
+        "Only test source is LibraryApplicationTests.contextLoads."
+      ]
+    }
+  ],
+  "memoryUsed": {
+    "purpose": "Located prior learning context; current code observations were verified live",
+    "entries": [
+      "MEMORY.md:60-67"
+    ],
+    "rolloutId": "019ff637-0fe1-7d83-b755-2cf7cb65bd00"
+  }
+}
