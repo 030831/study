@@ -25,12 +25,12 @@ public class Loan {
 
     private LocalDate dueDate;
 
-    private static final int loanPeriod = 14;
+    private static final int LOAN_PERIOD_DAYS = 14;
 
     public Loan(Member member, LocalDate loanDate) {
         this.member = member;
         this.loanDate = loanDate;
-        this.dueDate = loanDate.plusDays(loanPeriod);
+        this.dueDate = loanDate.plusDays(LOAN_PERIOD_DAYS);
     }
 
     protected Loan() {
